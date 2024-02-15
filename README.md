@@ -24,4 +24,6 @@ This is an Express server application for retrieving age distribution percentage
    ```bash
    npm start
 
-   
+## Assumption
+
+Assumed that CSV file having the mandatory properties of "name", "age", "address" and rest of the properties will collected as "additional_info"
