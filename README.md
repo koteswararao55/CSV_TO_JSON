@@ -12,4 +12,16 @@ This is an Express server application for retrieving age distribution percentage
 1. Clone this repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/koteswararao55/CSV_TO_JSON.git
+
+2. Packages Install:
+
+   ```bash
+   npm install
+
+3. Start the Server
+
+   ```bash
+   npm start
+
+   

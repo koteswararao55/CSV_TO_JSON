@@ -37,7 +37,8 @@ app.get("/convert", (req, res) => {
 async function formatObject(row) {
 	let obj = {};
 
-	Object.keys(row).forEach((key) => {
+	// biome-ignore lint/complexity/noForEach: <explanation>
+Object.keys(row).forEach((key) => {
 		const objectArray = key.split(".");
 
 		category = objectArray[0].trim();
