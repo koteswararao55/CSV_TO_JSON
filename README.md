@@ -27,3 +27,10 @@ This is an Express server application for retrieving age distribution percentage
 ## Assumption
 
 Assumed that CSV file having the mandatory properties of "name" (firstName and lastName), "age", "address" and rest of the properties will collected and stored as a "additional_info"
+
+## Output
+
+For Output you need Copy Paste the "http://localhost:3000/convert"
+
+Note:
+you need to adjust the port from the above link
