@@ -31,6 +31,7 @@ app.get("/convert", (req, res) => {
 			}
 			console.log(percentages);
 			res.json(percentages);
+			// res.json(formattedJson); <--- un-comment this for the properly formatted JSON output
 		});
 });
 
