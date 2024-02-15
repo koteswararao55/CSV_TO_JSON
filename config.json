@@ -1,0 +1,21 @@
+{
+    "name": "Configuration",
+    "project": "CSV to JSON conversion",
+    "settings": {
+        "statusCode": {
+            "success": {
+              "OK": 200
+            },
+            "clientError": {
+              "badRequest": 400,
+              "Unauthorized": 401,
+              "NotFound": 404,
+              "Forbidden": 403,
+              "InValidInput": 422
+            },
+            "serverError": {
+              "internalServerError": 500
+            }
+          }
+    }
+}
